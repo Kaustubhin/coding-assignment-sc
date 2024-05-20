@@ -1,4 +1,4 @@
-## Solution for below scenario 
+## Scenario 
 
 https://github.com/codingo/Ransomware-Json-Dataset/blob/master/ransomware_overview.json
  
@@ -6,3 +6,8 @@ https://github.com/codingo/Ransomware-Json-Dataset/blob/master/ransomware_overvi
 2. Explain selection of coding language and DB of your choice.
 3. Given that its large set of data, how will you ensure that no records are missed when writing into the DB
 4. In the case of duplicate entries, how will you handle them?
+==============================================================================
+### Created below code as solution
+* **ransomware.sql** - To run SQL quries
+* **data.json**  - Local copy of json file mentioned in above github link.
+* **createdbfromjson.py** - To extract the key and insert data using data.json file
